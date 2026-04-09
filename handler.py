@@ -175,7 +175,6 @@ def handler(job):
         return {"error": str(e)}
 
     finally:
-        # Always clean up LoRA state so the next job gets a clean pipe
         if lora_loaded:
             try:
                 pipe.unfuse_lora()
