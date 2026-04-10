@@ -1,4 +1,4 @@
-FROM runpod/pytorch:2.1.0-py3.10-cuda11.7.1-base-ubuntu22.04
+FROM runpod/pytorch:2.1.0-py3.10-cuda11.7.1-devel-ubuntu22.04
 
 WORKDIR /app
 
